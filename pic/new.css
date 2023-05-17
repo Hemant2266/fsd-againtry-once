@@ -1,0 +1,8 @@
+.paragraph span {
+display: block; opacity: 0;
+animation: reveal 0.5s forwards var(--d);
+}
+@keyframes reveal {
+    from {transform: trancelteY(20px);}
+    to {opacity: 1; transform: none;}
+}
